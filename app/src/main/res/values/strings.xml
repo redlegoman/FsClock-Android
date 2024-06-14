@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Clock</string>
+    <string name="app_name">FS Clock</string>
     <string name="app_name_long">Fullscreen Clock</string>
 
     <string name="clock_prefilled" translatable="false">00:00</string>
