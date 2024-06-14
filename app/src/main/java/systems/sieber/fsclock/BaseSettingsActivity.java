@@ -397,7 +397,7 @@ public class BaseSettingsActivity extends AppCompatActivity {
 
         mSpinnerDigitalClockFont.setAdapter(dataAdapterFonts);
         mSpinnerDigitalClockFont.setSelection(
-                FontOptions.FONT_OPTIONS.indexOf( FontOptions.getById(mSharedPref.getInt("font-digital-clock", FontOptions.DSEG7_CLASSIC)) ),
+                FontOptions.FONT_OPTIONS.indexOf( FontOptions.getById(mSharedPref.getInt("font-digital-clock", FontOptions.CAIRO_REGULAR)) ),
                 false
         );
         mSpinnerDigitalDateFont.setAdapter(dataAdapterFonts);

@@ -2,12 +2,12 @@ apply plugin: 'com.android.application'
 
 android {
     defaultConfig {
-        applicationId "systems.sieber.fsclock"
+        applicationId "systems.sieber.fsclock2"
         minSdkVersion 17
         targetSdkVersion 34
         compileSdk 34
         versionCode 34
-        versionName "1.12.2"
+        versionName "1.12.22"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
         vectorDrawables.useSupportLibrary = true
     }
@@ -34,6 +34,7 @@ android {
             dimension "appstore"
         }
     }
+    namespace 'systems.sieber.fsclock'
 }
 
 dependencies {
